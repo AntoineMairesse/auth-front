@@ -1,0 +1,9 @@
+<br><br><br><br><br><br><br><br>
+<form (ngSubmit)="sendMessage(sendForm)" #sendForm="ngForm">
+  <input type="hidden" name="sender" id="sender" [(ngModel)]="user">
+  <input type="text" name="message" id="input-message" ngModel>
+  <button type="submit">Send</button>
+</form>
+
+
+<button (click)="test()">test</button>

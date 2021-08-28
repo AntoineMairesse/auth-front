@@ -1,0 +1,16 @@
+mat-toolbar-row{
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 375px) {
+    justify-content: center !important;
+  }
+}
+#title{
+  @media (max-width: 375px) {
+    display: none;
+  }
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
